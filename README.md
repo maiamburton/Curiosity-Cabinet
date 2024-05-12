@@ -31,11 +31,11 @@ The biggest challenge I had was with CSS and making all the margins and padding 
 - The image of Brian Berg came from dailymail.co.uk: https://www.dailymail.co.uk/news/article-2009915/Brian-Berg-worlds-best-card-stacker.html
 - The lock mechanism GIF came from scienceabc.com: https://www.scienceabc.com/innovation/pick-door-locks-pin-tumbler-sherlock-doors-open.html
 
-**Books*
+**Books**
 Book cover images came from Amazon:
-https://www.amazon.com/Broken-Window-Lincoln-Rhyme-Novel/dp/0743570529
-https://www.amazon.com/Thinking-Bets-Making-Smarter-Decisions/dp/0735216355
-https://www.amazon.com/Alice-Isnt-Dead-Joseph-Fink-ebook/dp/B07FT94TLG
+- https://www.amazon.com/Broken-Window-Lincoln-Rhyme-Novel/dp/0743570529
+- https://www.amazon.com/Thinking-Bets-Making-Smarter-Decisions/dp/0735216355
+- https://www.amazon.com/Alice-Isnt-Dead-Joseph-Fink-ebook/dp/B07FT94TLG
 
 **CS**
 - Both sticker images came from Redbubble.com
