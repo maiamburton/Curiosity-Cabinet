@@ -1,0 +1,293 @@
+html, body, h1 {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    scroll-behavior: smooth;
+}
+
+* {
+    box-sizing: border-box; /* sets the element's dimensions include the padding and border */
+}
+
+body {
+    background-color: #F7FDFF;
+    color: #004777; /* paragraph color */
+    padding-top: 60px;  /* offset spacing from body to banner */
+}
+
+#intro {
+    color: #F17105;
+    font-size: 32px;
+}
+
+/* My Interests, New Skills */
+.section-header {
+    color: #F17105;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    display: inline-block; /* limits the length of thte bottom-border */
+    border-bottom: 3px solid #C0DA74;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+ul {
+    margin-top: 5px;
+}
+
+li {
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+footer {
+    background-color: #E2EDF3;
+    font-size: 12px;
+    text-align: center;
+    padding: 5px;
+}
+
+a:link {
+    color: #7EB356;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #577F39;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Fixing offset of header margin when auto-scrolling */
+#section1, #section2 {
+    scroll-margin-top: 60px;
+}
+
+.subheader {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.footnote {
+    background-color: #E2EDF3;
+    font-size: 12px;
+    padding: 5px 10px;
+}
+
+.interest-title, .book-titles strong, .books strong{
+    color: #F17105;
+}
+
+.not-last {
+    border-bottom: 2px solid #F17105;
+}
+
+.light-section {
+    background-color: #F7FDFF;
+}
+
+.dark-section {
+    background-color: #D6EFFF;
+}
+
+.light-section, .dark-section {
+    text-align: center;
+    padding: 5px 40px;
+    margin: 0px;
+}
+
+.light-section .button-style,
+.dark-section .button-style {
+    color: #F17105;
+    cursor: pointer;
+    border: none;
+    padding: 10px 0px 3px 0px;
+}
+
+.light-section .button-style:hover,
+.dark-section .button-style:hover { 
+    display: inline-block; /* limits the length of thte bottom-border */
+    border-bottom: 3px solid #C0DA74;
+    padding-bottom: 0px;
+}
+
+.blurb {
+    padding: 0px 45px;
+    text-align: left;
+}
+
+.footnote ul {
+    text-align: left;
+}
+
+.left, .right {
+    display: flex;
+    align-items: center;
+}
+
+.interest {
+    display: flex;
+    flex-direction: row; /* Default to side-by-side */
+    align-items: center; /* Align items from the center */
+    justify-content: space-between; /* Space between the sections */
+    margin: 0px;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+}
+
+.image-container .images {
+    display: flex;
+    flex-direction: column;
+}
+
+.image-container img{
+    width: 100%;
+    max-width: 220px;
+    height: auto;
+
+    display: block;
+    margin: 0px;
+    padding: 15px 10px;
+}
+
+.vertical-images {
+    flex-direction: column;
+}
+
+.text-container {
+    text-align: left;
+    justify-content: left;
+    flex-basis: 50%;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column; /* align text elements vertically */
+}
+
+#origami {
+    text-align: left; 
+    margin-left: 0; 
+    padding-left: 0;
+}
+
+
+.new-skills li {
+    margin-top: 10px;
+}
+
+.button-style.banner-words:hover {
+    transform: scale(1.2);
+    transition: transform 0.2s ease-in-out;
+    display: block;
+}
+
+.banner {
+    background-color: #004777;
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+    padding: 0px 60px; /* top/bottom, left/right */
+}
+
+.banner .right {
+    justify-content: flex-end;
+    gap: 40px;  /* spacing between banner tags */
+    padding: 0px;
+}
+
+.banner .banner-words {
+    color: #F7FDFF;
+    text-decoration: none;
+    padding-bottom: 0px;
+}
+
+.right, .about{
+    justify-content: flex-end;
+    flex-grow: 1; /* proportional value whether a flex item can grow */
+    padding: 10px 0px 20px 30px;
+    gap: 10px;
+}
+
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px;
+    margin: 0px;
+}
+
+#bio {
+    flex-basis: 50%;
+    flex-shrink: 0;
+    display: flex;
+    padding: 0px 100px; /* space from bio paragraph from right edge of screen */
+    flex-direction: column; /* align text elements vertically */
+    justify-content: center; /* center text vertically */
+}
+
+#profile{
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    object-fit: contain;
+
+    display: block;
+    margin: 0px;
+    padding: 0px;
+}
+
+@media (max-width: 830px) {
+    .interest {
+        flex-direction: column; /* Stack vertically on smaller screens */
+    }
+
+    .section-bookmarks {
+        display: none;
+    }
+
+    .image-container img{
+        width: 100%;
+        max-width: 170px;
+        height: auto;
+    }
+
+    .image-container .images {
+        flex-direction: row;
+    }
+
+    #profile {
+        width: 100%;
+        max-width: 230px;
+        height: auto;
+    }
+}
+
+/*
+Color Palettes:
+Air Force Blue: #47829A
+Columbia Blue: #B9D4DF
+
+Indigo Dye:#004777
+Columbia Blue: #D6EFFF
+Alice Blue: #E2EDF3
+Pumpkin: #F17105
+Mantis: #7EB356
+Fern Green: #577F39
+Mindaro; #C0DA74
+*/
+
+/*
+Webpage layout and color palette based on: https://www.homsweethom.com/
+*/
