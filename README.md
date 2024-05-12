@@ -21,3 +21,21 @@ I have lists of useful webpages and books I wanted to read on my computer and a 
 I understand having more pages in a website can make it more complicated and difficult for a user to explore, so my next challenge will be to strike a balance between organized and convoluted.
 
 The biggest challenge I had was with CSS and making all the margins and padding do what I wanted, especially after making the webpage responsive. Additionaly, while I have some CSS experience from high school, I had to relearn the different class combinators&mdash;the difference between a space, comma, arrow, etc&mdash;and completely forgot that code further down the file had higher priority. I moved some stuff around for better readability and some styles were thrown out of whack.
+
+### Citations
+**Hobbies**
+- The origami image came from gettyimages.com: https://www.gettyimages.com/photos/origami-crane
+- The Rubik's cube image is my own.
+- The balisong trainer is from Amazon: https://www.amazon.com/dp/B0CKSYVH99/ref=sspa_dk_offsite_brave_1?aaxitk=bcf605c603a86537c9b7b9fa3a581bb4&th=1
+- The juggling GIF is from the Juggling Library: https://libraryofjuggling.com/Tricks/3balltricks/Cascade.html
+- The image of Brian Berg came from dailymail.co.uk: https://www.dailymail.co.uk/news/article-2009915/Brian-Berg-worlds-best-card-stacker.html
+- The lock mechanism GIF came from scienceabc.com: https://www.scienceabc.com/innovation/pick-door-locks-pin-tumbler-sherlock-doors-open.html
+
+**Books*
+Book cover images came from Amazon:
+https://www.amazon.com/Broken-Window-Lincoln-Rhyme-Novel/dp/0743570529
+https://www.amazon.com/Thinking-Bets-Making-Smarter-Decisions/dp/0735216355
+https://www.amazon.com/Alice-Isnt-Dead-Joseph-Fink-ebook/dp/B07FT94TLG
+
+**CS**
+- Both sticker images came from Redbubble.com
