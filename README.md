@@ -22,7 +22,7 @@ I understand having more pages in a website can make it more complicated and dif
 
 The biggest challenge I had was with CSS and making all the margins and padding do what I wanted, especially after making the webpage responsive. Additionaly, while I have some CSS experience from high school, I had to relearn the different class combinators&mdash;the difference between a space, comma, arrow, etc&mdash;and completely forgot that code further down the file had higher priority. I moved some stuff around for better readability and some styles were thrown out of whack.
 
-### Citations
+## Citations
 **Hobbies**
 - The origami image came from gettyimages.com: https://www.gettyimages.com/photos/origami-crane
 - The Rubik's cube image is my own.
