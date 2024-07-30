@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gallery</title>
+    <link rel="stylesheet" href="stickers.css">
+</head>
+<body>
+  <section id="portfolio">
+    <div class="project">
+      <div class="image__cell">
+        <img class="project__image" src="images/stickers/andGate.png" />
+      </div>
+      <p>Code Machine Sticker</p>
+      <h3 class="grid__title">Redbubble</h3>
+      <div class="grid__overlay">
+        <button class="viewbutton">view more</button>
+      </div>
+    </div>
+    
+    <div class="project">
+      <img class="project__image" src="images/stickers/developmentPhases.png" />
+      <p>pure css</p>
+      <h3 class="grid__title">Redbubble</h3>
+      <div class="grid__overlay">
+        <button class="viewbutton">view more</button>
+      </div>
+    </div>
+    
+    <div class="project">
+      <img class="project__image" src="images/stickers/hideAndSeekChampion.png" />
+      <p>Hide and Seek Champion</p>
+      <h3 class="grid__title">Redbubble</h3>
+      <div class="grid__overlay">
+        <button class="viewbutton">view more</button>
+      </div>
+    </div>
+    
+    <div class="project">
+      <img class="project__image" src="images/stickers/IHateProgramming.png" />
+      <p>daily ui</p>
+      <h3 class="grid__title">Redbubble</h3>
+      <div class="grid__overlay">
+        <button class="viewbutton">view more</button>
+      </div>
+    </div>
+    <div class="project">
+      <img class="project__image" src="images/stickers/myCSSisPerfect.png" />
+      <p>Perfect CSS</p>
+      <h3 class="grid__title">Redbubble</h3>
+      <div class="grid__overlay">
+        <button class="viewbutton">view more</button>
+      </div>
+    </div>
+    
+    <div class="project">
+      <img class="project__image" src="images/stickers/temporaryFix.png" />
+      <p>pure css</p>
+      <h3 class="grid__title">Redbubble</h3>
+      <div class="grid__overlay">
+        <button class="viewbutton">view more</button>
+      </div>
+    </div>
+    
+    <div class="project">
+      <img class="project__image" src="images/stickers/debug.png" />
+      <p>web apps</p>
+      <h3 class="grid__title">Redbubble</h3>
+      <div class="grid__overlay">
+        <button class="viewbutton">view more</button>
+      </div>
+    </div>
+    
+    <div class="project">
+      <img class="project__image" src="images/stickers/CS_error.png" />
+      <p>daily ui</p>
+      <h3 class="grid__title">Redbubble</h3>
+      <div class="grid__overlay">
+        <button class="viewbutton">view more</button>
+      </div>
+    </div>
+    <div class="overlay">
+      <div class="overlay__inner">
+        <button class="close">close X</button>
+        <img>
+      </div>
+    </div>
+  </section>
+  <script>
+    const buttons = document.querySelectorAll('.project');
+    const overlay = document.querySelector('.overlay');
+    const overlayInner = document.querySelector('.overlay__inner');
+    const overlayImage = document.querySelector('.overlay__inner img');
+
+    function open(e) {
+        overlay.classList.add('open');
+        overlayInner.classList.add('open');
+        const src= e.currentTarget.querySelector('img').src;
+        overlayImage.src = src;
+        adjustImageWidth(overlayImage);
+    }
+
+    function close() {
+        overlay.classList.remove('open');
+        overlayInner.classList.remove('open');
+        adjustImageWidth(overlayImage);
+    }
+
+    function adjustImageWidth(image) {
+        if (overlayInner.classList.contains('open')) {
+            image.style.width = '700px'; // Set the width when overlay is open
+        } else {
+            image.style.width = '150px'; // Default width
+        }
+    }
+
+    buttons.forEach(button => button.addEventListener('click', open));
+    overlay.addEventListener('click', close);
+  </script>
+</body>
+</html>
