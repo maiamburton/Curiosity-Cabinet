@@ -5,7 +5,7 @@ A curated mix of unique and unusual websites showcasing my diverse collection of
 This webpage is a collection of interests I've had, currently have, and want to try in the future, in addition to a variety of webpages I think are cool&mdash;by content, design, and functionality. This personal webpage was originally an assignment in my Web Programming course at UC Davis Spring 2024; however, I've decided to continue keep it up to date.
 
 ## Design Choices
-I modeled my color scheme based on my profile photo and used Coolors.come to help select the perfect palette. My favorite colors are Navy Blue and Maroon Red, and my HS colors were blue and white. The fact that the orange and pistachio green matched the photo was a coincidence until about halfway through the design of my main page. 
+I modeled my color scheme based on my profile photo and used Coolors.com to help select the perfect palette. My favorite colors are Navy Blue and Maroon Red, and my HS colors were blue and white. The fact that the orange and pistachio green matched the photo was a coincidence until about halfway through the design of my main page. 
 
 One feature I love about most websites is that the top left corner typically has a logo that when clicked brings the user back to the home page. I incorporated several local links in my page in the banner at the top of the screen and one "back to top" button as the bottom. I also had a lot of fun using different hover effects.
 
